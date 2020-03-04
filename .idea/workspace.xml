@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="09f550d4-32e4-4a69-8b28-6592bfdc62c1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day2_Locators/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day2_Locators/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/home_practice/SeleniumOH2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/home_practice/SeleniumOH2.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,9 +52,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Login">
-    <configuration name="FacebookAccount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="home_practice.FacebookAccount" />
+  <component name="RunManager" selected="Application.EbaySearch">
+    <configuration name="EbaySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="home_practice.EbaySearch" />
       <module name="fall-2019-selenium-project" />
       <extension name="coverage">
         <pattern>
@@ -92,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day1_Navigation.Practice" />
+    <configuration name="SeleniumOH2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="home_practice.SeleniumOH2" />
       <module name="fall-2019-selenium-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day1_Navigation.*" />
+          <option name="PATTERN" value="home_practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EbaySearch" />
+        <item itemvalue="Application.SeleniumOH2" />
         <item itemvalue="Application.Login" />
         <item itemvalue="Application.FindElement" />
         <item itemvalue="Application.Task1" />
-        <item itemvalue="Application.FacebookAccount" />
-        <item itemvalue="Application.Practice" />
       </list>
     </recent_temporary>
   </component>
