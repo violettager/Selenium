@@ -34,6 +34,8 @@ public class LinkText {
         System.out.println("examplePart = " + examplePart);
         driver.quit();
 
+        //locate the element : home
+
 
     }
 }

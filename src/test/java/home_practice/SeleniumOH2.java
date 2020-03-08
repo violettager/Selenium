@@ -19,7 +19,7 @@ public class SeleniumOH2 {
 
         driver.get("http://automationpractice.com");
         driver.manage().window().maximize();
-
+Thread.sleep(3000);
         WebElement searchBox = driver.findElement(By.id("search_query_top"));
         searchBox.sendKeys("tshirt"+ Keys.ENTER);
         /*
@@ -28,7 +28,7 @@ public class SeleniumOH2 {
 			</p>
          */
 
-Thread.sleep(3000);
+Thread.sleep(5000);
         WebElement error = driver.findElement(By.xpath("//p[@class='alert alert-warning']"));
         String errorText = error.getText();
 
@@ -41,13 +41,15 @@ Thread.sleep(3000);
         searchBox.sendKeys("t-shirt"+Keys.ENTER);
         //StaleElementReferenceException - element is old/stalewe want to find
         //this element again Or refresh page
-
+        Thread.sleep(3000);
+        driver.quit();
         try{
             Thread.sleep(3000);
         } catch(InterruptedException e){
             e.printStackTrace();
         }
         WebElement count = driver.findElement(By.id("product-count"));
+
         driver.quit();
 
 
