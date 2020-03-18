@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="09f550d4-32e4-4a69-8b28-6592bfdc62c1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day3_Locators2/LinkText.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day3_Locators2/LinkText.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/home_practice/SeleniumOH2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/home_practice/SeleniumOH2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day3_Locators2/LinkText.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day3_Locators2/LinkText.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/home_practice/SeleniumOH2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/home_practice/SeleniumOH2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fall-2019-selenium-project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/fall-2019-selenium-project.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +52,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GetAttributeValue">
+  <component name="RunManager" selected="Application.SeleniumOH2">
+    <configuration name="CssExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day6_css.CssExample" />
+      <module name="fall-2019-selenium-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.tests.day6_css.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EbaySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="home_practice.EbaySearch" />
       <module name="fall-2019-selenium-project" />
@@ -69,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetAttributeValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day3_Locators2.GetAttributeValue" />
+    <configuration name="OfficeHourB15Collections" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="home_practice.OfficeHourB15Collections" />
       <module name="fall-2019-selenium-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day3_Locators2.*" />
+          <option name="PATTERN" value="home_practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day3_Locators2.LinkText" />
+    <configuration name="Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day1_Navigations.Practice" />
       <module name="fall-2019-selenium-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day3_Locators2.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day1_Navigations.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,26 +118,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VerifyErrorMessage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day3_Locators2.VerifyErrorMessage" />
-      <module name="fall-2019-selenium-project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day3_Locators2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GetAttributeValue" />
         <item itemvalue="Application.SeleniumOH2" />
         <item itemvalue="Application.EbaySearch" />
-        <item itemvalue="Application.VerifyErrorMessage" />
-        <item itemvalue="Application.LinkText" />
+        <item itemvalue="Application.Practice" />
+        <item itemvalue="Application.CssExample" />
+        <item itemvalue="Application.OfficeHourB15Collections" />
       </list>
     </recent_temporary>
   </component>
